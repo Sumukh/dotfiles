@@ -1,15 +1,16 @@
-custom/zsh
+# Some sensible files to ignore 
 
-vim/backups
-vim/view
-*un~
-vim/.netrwhist
-vim/tmp
-vim/spell
-vim/after/.vimrc.after
-vim/.vundles.local
-vim/bundle
-vim/sessions
-.netrwhist
-bin/subl
-tags
+# Python Files
+*.pyc
+
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+
+# Thumbnail cache files
+._*
+Thumbs.db
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
