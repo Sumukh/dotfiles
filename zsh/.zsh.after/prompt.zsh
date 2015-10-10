@@ -1,2 +1,2 @@
 prompt agnoster
-DEFAULT_USER=sumukh
+#DEFAULT_USER=sumukh
