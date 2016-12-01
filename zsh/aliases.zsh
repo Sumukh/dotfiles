@@ -69,7 +69,6 @@ alias ye='vim ~/.yadr/vim/after/vimrc.after'
 
 # zsh profile editing
 alias ze='vim ~/.zshrc'
-alias zr='source ~/.zshrc'
 
 # Git Aliases
 alias gs='git status'
@@ -105,10 +104,12 @@ alias glg='git l'
 alias glog='git l'
 alias co='git co'
 alias gf='git fetch'
+alias gfp='git fetch --prune'
+alias gfa='git fetch --all'
+alias gfap='git fetch --all --prune'
 alias gfch='git fetch'
 alias gd='git diff'
 alias gb='git b'
-alias gbd='git b -D -w'
 # Staged and cached are the same thing
 alias gdc='git diff --cached -w'
 alias gds='git diff --staged -w'
@@ -132,6 +133,7 @@ alias gsmu='git submodule update'
 alias gt='git t'
 alias gbg='git bisect good'
 alias gbb='git bisect bad'
+alias gdmb='git branch --merged | grep -v "\*" | xargs -n 1 git branch -d'
 
 # Common shell functions
 alias less='less -r'
@@ -165,6 +167,9 @@ alias sgi='sudo gem install --no-ri --no-rdoc'
 # Forward port 80 to 3000
 alias portforward='sudo ipfw add 1000 forward 127.0.0.1,3000 ip from any to any 80 in'
 
+alias rdm='rake db:migrate'
+alias rdmr='rake db:migrate:redo'
+
 # Rspec
 alias rs='rspec spec'
 alias sr='spring rspec'
@@ -193,8 +198,6 @@ alias ts='tmux new-session -s'
 alias tl='tmux list-sessions'
 alias tksv='tmux kill-server'
 alias tkss='tmux kill-session -t'
-
-
 
 alias hpr='hub pull-request'
 alias grb='git recent-branches'
