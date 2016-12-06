@@ -1,2 +1,2 @@
-prompt kylewest
+prompt agnoster
 DEFAULT_USER=sumukh

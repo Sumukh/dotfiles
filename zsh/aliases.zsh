@@ -191,8 +191,9 @@ alias hoc='howdoi objective c'
 alias hsw='howdoi swift'
 alias m='mosh'
 alias serve='python3 -m http.server'
+alias k='kubectl'
 
-# tmux 
+# tmux
 alias ta='tmux attach -t'
 alias ts='tmux new-session -s'
 alias tl='tmux list-sessions'
