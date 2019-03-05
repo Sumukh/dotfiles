@@ -208,4 +208,4 @@ alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall 
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
 
 # Homebrew
-alias brewu='brew update  && brew upgrade --all && brew cleanup && brew prune && brew doctor'
+alias brewu='brew update && brew upgrade && brew cleanup && brew doctor'
